@@ -2,32 +2,53 @@
 <html lang="en">
 
 <head>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            fetch("common-head.html")
-                .then(response => response.text())
-                .then(data => {
-                    document.head.innerHTML = data + document.head.innerHTML;
-                })
-                .catch(error => console.error("Error loading common head:", error));
-        });
-    </script>
+    <meta charset="utf-8">
+    <title>Techgenie Solutions</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="semiconductor,electronics sourcing and design solution provider," name="keywords">
+    <meta content="" name="description">
+
+    <link rel="icon" href="img/logo2.png" type="image/x-icon"> <!-- Path to your logo file -->
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Rubik:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
-    <body>
+<body>
 
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
         </div>
-        <!-- Spinner End -->
+    </div>
+    <!-- Spinner End -->
 
     <!-- Navbar & Hero Start -->
     <div class="container-fluid header position-relative overflow-hidden p-0">
         <div id="navbar-placeholder"></div>
-        
+
         <!-- Hero Header Start -->
         <div class="hero-header overflow-hidden px-5">
             <div class="rotate-img">
@@ -36,7 +57,8 @@
             </div>
             <div class="row gy-5 align-items-center">
                 <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
-                    <h1 class="display-4 text-dark mb-4 wow fadeInUp" data-wow-delay="0.3s">Our Products to Engineer the Future
+                    <h1 class="display-4 text-dark mb-4 wow fadeInUp" data-wow-delay="0.3s">Our Products to Engineer the
+                        Future
                     </h1>
                     <!-- <p class="fs-4 mb-4 wow fadeInUp" data-wow-delay="0.5s"> Gain a competitive advantage and increase
                         your market share across the industry.</p> -->
@@ -48,12 +70,12 @@
             </div>
         </div>
         <!-- Hero Header End -->
-        </div>
-        <!-- Navbar & Hero End -->
+    </div>
+    <!-- Navbar & Hero End -->
 
 
-         <!-- Header Start -->
-         <!-- <div class="container-fluid bg-breadcrumb">
+    <!-- Header Start -->
+    <!-- <div class="container-fluid bg-breadcrumb">
             <ul class="breadcrumb-animation">
                 <li></li>
                 <li></li>
@@ -66,26 +88,29 @@
                 <li></li>
                 <li></li>
             </ul> -->
-            <!-- <div class="container text-center py-5" style="max-width: 900px;">
+    <!-- <div class="container text-center py-5" style="max-width: 900px;">
                 <h3 class="display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Products to Engineer the Future</h1> -->
-                <!-- <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+    <!-- <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                     <li class="breadcrumb-item active text-primary">Service</li>
                 </ol>     -->
-            <!-- </div> -->
-        <!-- </div> -->
-        <!-- Header End -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- Header End -->
 
 
-        <!-- Service Start -->
-        <div class="container-fluid contact py-5">
-            <div class="container py-5">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
-                    <h4 class="mb-1 text-primary">Our Products</h4>
-                    <h1 class="display-5 mb-4">Explore our innovative solutions for electronics product design and development</h1>
-                    <p class="mb-0">At TechGenie Solutions, we are committed to delivering innovative, reliable, and high-quality industrial solutions tailored to your needs. Our products are designed to enhance efficiency, reduce operational costs, and provide seamless automation for various industries.</p>
-                </div>
-                <!-- <div class="row g-4 justify-content-center">
+    <!-- Service Start -->
+    <div class="container-fluid contact py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
+                <h4 class="mb-1 text-primary">Our Products</h4>
+                <h1 class="display-5 mb-4">Explore our innovative solutions for electronics product design and
+                    development</h1>
+                <p class="mb-0">At TechGenie Solutions, we are committed to delivering innovative, reliable, and
+                    high-quality industrial solutions tailored to your needs. Our products are designed to enhance
+                    efficiency, reduce operational costs, and provide seamless automation for various industries.</p>
+            </div>
+            <!-- <div class="row g-4 justify-content-center">
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item text-center rounded p-4">
                             <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i class="fas fa-mail-bulk fa-5x text-secondary"></i></div>
@@ -175,113 +200,140 @@
                         </div>
                     </div>
                 </div> -->
-            </div>
         </div>
-        <!-- Service End -->
+    </div>
+    <!-- Service End -->
 
-        <div class="container-fluid FAQ bg-light overflow-hidden py-5">
-            <div class="container py-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item border-0 mb-4">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                        BLDC Motor Control (25W to 1KW)
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body my-2">
-                                        <p>Enhance efficiency and performance with our state-of-the-art Brushless DC (BLDC) Motor Controllers. Designed for a wide range of applications, these controllers offer precise speed control, high reliability, and energy efficiency. Our solutions support motors from 25W to 1KW, making them ideal for industrial automation, robotics, electric vehicles, and HVAC systems.</p>
-                                        <h5>Key Features:</h5>
-                                        <ul>
-                                            <li>Wide power range (25W – 1KW)</li>
-                                            <li>High efficiency and low noise operation</li>
-                                            <li>Advanced speed and torque control</li>
-                                            <li>Overcurrent and thermal protection</li>
-                                            <li>Customizable firmware for application-specific needs</li>
-                                        </ul>
-                                    </div>
+    <div class="container-fluid FAQ bg-light overflow-hidden py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item border-0 mb-4">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button rounded-top" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    BLDC Motor Control (25W to 1KW)
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body my-2">
+                                    <p>Enhance efficiency and performance with our state-of-the-art Brushless DC (BLDC)
+                                        Motor Controllers. Designed for a wide range of applications, these controllers
+                                        offer precise speed control, high reliability, and energy efficiency. Our
+                                        solutions support motors from 25W to 1KW, making them ideal for industrial
+                                        automation, robotics, electric vehicles, and HVAC systems.</p>
+                                    <h5>Key Features:</h5>
+                                    <ul>
+                                        <li>Wide power range (25W – 1KW)</li>
+                                        <li>High efficiency and low noise operation</li>
+                                        <li>Advanced speed and torque control</li>
+                                        <li>Overcurrent and thermal protection</li>
+                                        <li>Customizable firmware for application-specific needs</li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="accordion-item border-0 mb-4">
-                                <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Industrial IoT Gateway
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body my-2">
-                                        <p>Unlock the power of Industry 4.0 with our Industrial IoT Gateway. This cutting-edge device enables seamless connectivity between industrial machines and cloud platforms, ensuring real-time data acquisition, remote monitoring, and predictive maintenance.</p>
-                                        <h5>Key Features:</h5>
-                                        <ul>
-                                            <li>Multiple communication protocols (Modbus, MQTT, Ethernet, Wi-Fi, LTE)</li>
-                                            <li>Secure data transmission with encryption</li>
-                                            <li>Edge computing capabilities for real-time analytics</li>
-                                            <li>Easy integration with existing industrial systems</li>
-                                            <li>Robust and reliable design for harsh environments</li>
-                                        </ul>
-                                    </div>
+                        </div>
+                        <div class="accordion-item border-0 mb-4">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed rounded-top" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    Industrial IoT Gateway
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body my-2">
+                                    <p>Unlock the power of Industry 4.0 with our Industrial IoT Gateway. This
+                                        cutting-edge device enables seamless connectivity between industrial machines
+                                        and cloud platforms, ensuring real-time data acquisition, remote monitoring, and
+                                        predictive maintenance.</p>
+                                    <h5>Key Features:</h5>
+                                    <ul>
+                                        <li>Multiple communication protocols (Modbus, MQTT, Ethernet, Wi-Fi, LTE)</li>
+                                        <li>Secure data transmission with encryption</li>
+                                        <li>Edge computing capabilities for real-time analytics</li>
+                                        <li>Easy integration with existing industrial systems</li>
+                                        <li>Robust and reliable design for harsh environments</li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="accordion-item border-0 mb-4">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Variable Frequency Drive (VFD)
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body my-2">
-                                        <p>Achieve superior motor control with our Variable Frequency Drives (VFDs). These drives optimize energy consumption while providing smooth acceleration and deceleration, making them perfect for industrial machinery, pumps, and HVAC applications.</p>
-                                        <h5>Key Features:</h5>
-                                        <ul>
-                                            <li>Precise speed and torque control</li>
-                                            <li>Energy-efficient operation</li>
-                                            <li>Built-in protection mechanisms (overvoltage, overload, short circuit)</li>
-                                            <li>User-friendly interface with digital display</li>
-                                            <li>Compatible with various motor types</li>
-                                        </ul>
-                                    </div>
+                        </div>
+                        <div class="accordion-item border-0 mb-4">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed rounded-top" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Variable Frequency Drive (VFD)
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body my-2">
+                                    <p>Achieve superior motor control with our Variable Frequency Drives (VFDs). These
+                                        drives optimize energy consumption while providing smooth acceleration and
+                                        deceleration, making them perfect for industrial machinery, pumps, and HVAC
+                                        applications.</p>
+                                    <h5>Key Features:</h5>
+                                    <ul>
+                                        <li>Precise speed and torque control</li>
+                                        <li>Energy-efficient operation</li>
+                                        <li>Built-in protection mechanisms (overvoltage, overload, short circuit)</li>
+                                        <li>User-friendly interface with digital display</li>
+                                        <li>Compatible with various motor types</li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="accordion-item border-0 mb-4">
-                                <h2 class="accordion-header" id="headingFour">
-                                    <button class="accordion-button collapsed rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        Solar Inverters
-                                    </button>
-                                </h2>
-                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body my-2">
-                                        <p>Maximize your solar energy efficiency with our high-performance Solar Inverters. Engineered for residential, commercial, and industrial applications, our inverters convert DC power from solar panels into usable AC power with high efficiency and reliability.</p>
-                                        <h5>Key Features:</h5>
-                                        <ul>
-                                            <li>High conversion efficiency with MPPT technology</li>
-                                            <li>Grid-tied and off-grid solutions available</li>
-                                            <li>Intelligent monitoring and remote diagnostics</li>
-                                            <li>Robust design for durability and long lifespan</li>
-                                            <li>Seamless integration with battery storage systems</li>
-                                        </ul>
-                                    </div>
+                        </div>
+                        <div class="accordion-item border-0 mb-4">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed rounded-top" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">
+                                    Solar Inverters
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body my-2">
+                                    <p>Maximize your solar energy efficiency with our high-performance Solar Inverters.
+                                        Engineered for residential, commercial, and industrial applications, our
+                                        inverters convert DC power from solar panels into usable AC power with high
+                                        efficiency and reliability.</p>
+                                    <h5>Key Features:</h5>
+                                    <ul>
+                                        <li>High conversion efficiency with MPPT technology</li>
+                                        <li>Grid-tied and off-grid solutions available</li>
+                                        <li>Intelligent monitoring and remote diagnostics</li>
+                                        <li>Robust design for durability and long lifespan</li>
+                                        <li>Seamless integration with battery storage systems</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
-                        <div class="FAQ-img RotateMoveRight rounded">
-                            <img id="defaultImage" src="img/productsimages.webp" class="img-fluid w-100" alt="">
-                            <img id="faqImage1" src="img/products/bldcProduct02.png" class="img-fluid w-100" alt="" style="display: none;">
-                            <img id="faqImage2" src="img/products/iotgateway.png" class="img-fluid w-100" alt="" style="display: none;">
-                            <img id="faqImage3" src="img/products/vfd01.png" class="img-fluid w-100" alt="" style="display: none;">
-                            <img id="faqImage4" src="img/products/solar02.png" class="img-fluid w-100" alt="" style="display: none;">
-                        </div>
+                </div>
+                <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                    <div class="FAQ-img RotateMoveRight rounded">
+                        <!-- <img id="defaultImage" src="img/productsimages.webp" class="img-fluid w-100" alt=""> -->
+                        <img id="defaultImage" src="img/products/bldcProduct02.png" class="img-fluid w-100" alt="">
+                        <img id="faqImage2" src="img/products/iotgateway.png" class="img-fluid w-100" alt=""
+                            style="display: none;">
+                        <img id="faqImage3" src="img/products/vfd01.png" class="img-fluid w-100" alt=""
+                            style="display: none;">
+                        <img id="faqImage4" src="img/products/solar02.png" class="img-fluid w-100" alt=""
+                            style="display: none;">
                     </div>
                 </div>
             </div>
         </div>
-        
+    </div>
 
-        <!-- FAQ Start -->
-        <!-- <div class="container-fluid FAQ bg-light overflow-hidden py-5">
+
+    <!-- FAQ Start -->
+    <!-- <div class="container-fluid FAQ bg-light overflow-hidden py-5">
             <div class="container py-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
@@ -419,11 +471,11 @@
                 </div>
             </div>
         </div> -->
-        <!-- FAQ End -->
+    <!-- FAQ End -->
 
 
-        <!-- Pricing Start -->
-        <!-- <div class="container-fluid price py-5">
+    <!-- Pricing Start -->
+    <!-- <div class="container-fluid price py-5">
             <div class="container py-5">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
                     <h4 class="text-primary">Pricing Plan</h4>
@@ -508,43 +560,43 @@
                 </div>
             </div>
         </div> -->
-        <!-- Pricing End -->
+    <!-- Pricing End -->
 
 
-     <!-- Footer Start -->
-     <div id="footer-placeholder"></div>
-     <!-- Footer End -->
+    <!-- Footer Start -->
+    <div id="footer-placeholder"></div>
+    <!-- Footer End -->
 
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
 
-             <!-- JavaScript to Load Navbar -->
-             <script>
-                document.addEventListener("DOMContentLoaded", function () {
-                    // Load the navbar dynamically
-                    fetch("navbar.html")
-                        .then(response => response.text())
-                        .then(data => {
-                            document.getElementById("navbar-placeholder").innerHTML = data;
-            
-                            // Highlight the active link
-                            const currentPage = window.location.pathname.split("/").pop() || "index.html"; // Get the current file name
-                            const navLinks = document.querySelectorAll(".nav-item.nav-link");
-            
-                            navLinks.forEach(link => {
-                                if (link.getAttribute("href") === currentPage) {
-                                    link.classList.add("active");
-                                } else {
-                                    link.classList.remove("active");
-                                }
-                            });
-                        })
-                        .catch(error => console.error("Error loading navbar:", error));
-                });
-            </script>
-                 <!-- JavaScript to Load Footer -->
-     <script>
+    <!-- JavaScript to Load Navbar -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Load the navbar dynamically
+            fetch("navbar.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("navbar-placeholder").innerHTML = data;
+
+                    // Highlight the active link
+                    const currentPage = window.location.pathname.split("/").pop() || "index.html"; // Get the current file name
+                    const navLinks = document.querySelectorAll(".nav-item.nav-link");
+
+                    navLinks.forEach(link => {
+                        if (link.getAttribute("href") === currentPage) {
+                            link.classList.add("active");
+                        } else {
+                            link.classList.remove("active");
+                        }
+                    });
+                })
+                .catch(error => console.error("Error loading navbar:", error));
+        });
+    </script>
+    <!-- JavaScript to Load Footer -->
+    <script>
         document.addEventListener("DOMContentLoaded", function () {
             // Load the footer dynamically
             fetch("footer.html")
@@ -560,12 +612,12 @@
         document.addEventListener('DOMContentLoaded', function () {
             const defaultImage = document.getElementById('defaultImage');
             const images = {
-                collapseOne: document.getElementById('faqImage1'),
+                collapseOne: document.getElementById('defaultImage'),
                 collapseTwo: document.getElementById('faqImage2'),
                 collapseThree: document.getElementById('faqImage3'),
                 collapseFour: document.getElementById('faqImage4'),
             };
-    
+
             Object.keys(images).forEach(collapseId => {
                 const collapseElement = document.getElementById(collapseId);
                 collapseElement.addEventListener('show.bs.collapse', function () {
@@ -573,7 +625,7 @@
                     Object.values(images).forEach(img => img.style.display = 'none');
                     images[collapseId].style.display = 'block';
                 });
-    
+
                 collapseElement.addEventListener('hide.bs.collapse', function () {
                     if (!Object.values(images).some(img => img.style.display === 'block')) {
                         defaultImage.style.display = 'block';
@@ -590,10 +642,10 @@
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
-    
+
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    </body>
+</body>
 
 </html>

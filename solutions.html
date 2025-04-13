@@ -2,32 +2,53 @@
 <html lang="en">
 
 <head>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            fetch("common-head.html")
-                .then(response => response.text())
-                .then(data => {
-                    document.head.innerHTML = data + document.head.innerHTML;
-                })
-                .catch(error => console.error("Error loading common head:", error));
-        });
-    </script>
+    <meta charset="utf-8">
+    <title>Techgenie Solutions</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="semiconductor,electronics sourcing and design solution provider," name="keywords">
+    <meta content="" name="description">
+
+    <link rel="icon" href="img/logo2.png" type="image/x-icon"> <!-- Path to your logo file -->
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Rubik:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
-    <body>
+<body>
 
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
         </div>
-        <!-- Spinner End -->
+    </div>
+    <!-- Spinner End -->
 
     <!-- Navbar & Hero Start -->
     <div class="container-fluid header position-relative overflow-hidden p-0">
         <div id="navbar-placeholder"></div>
-        
+
         <!-- Hero Header Start -->
         <div class="hero-header overflow-hidden px-5">
             <div class="rotate-img">
@@ -36,23 +57,24 @@
             </div>
             <div class="row gy-5 align-items-center">
                 <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
-                    <h1 class="display-4 text-dark mb-4 wow fadeInUp" data-wow-delay="0.3s">Your Go-To Source for Innovative Solutions
+                    <h1 class="display-4 text-dark mb-4 wow fadeInUp" data-wow-delay="0.3s">Your Go-To Source for
+                        Innovative Solutions
                     </h1>
                     <!-- <p class="fs-4 mb-4 wow fadeInUp" data-wow-delay="0.5s"> Gain a competitive advantage and increase
                         your market share across the industry.</p> -->
                 </div>
                 <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
-                    <img src="img/solutions2.png" class="img-fluid w-100 h-100" alt="">
+                    <img src="img/solutions.png" class="img-fluid w-100 h-100" alt="">
                 </div>
             </div>
         </div>
         <!-- Hero Header End -->
-        </div>
-        <!-- Navbar & Hero End -->
+    </div>
+    <!-- Navbar & Hero End -->
 
 
-         <!-- Header Start -->
-         <!-- <div class="container-fluid bg-breadcrumb">
+    <!-- Header Start -->
+    <!-- <div class="container-fluid bg-breadcrumb">
             <ul class="breadcrumb-animation">
                 <li></li>
                 <li></li>
@@ -67,129 +89,159 @@
             </ul>
             <div class="container text-center py-5" style="max-width: 900px;">
                 <h3 class="display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Your Go-To Source for Innovative Solutions</h1> -->
-                <!-- <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+    <!-- <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                     <li class="breadcrumb-item active text-primary">Service</li>
                 </ol>     -->
-            <!-- </div>
+    <!-- </div>
         </div> -->
-        <!-- Header End -->
+    <!-- Header End -->
 
-        <!-- Service Start -->
-        <div class="container-fluid contact py-5">
-            <div class="container py-5">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
-                    <h4 class="mb-1 text-primary">Our Solutions</h4>
-                    <h1 class="display-5 mb-4">Here's an overview of our electronic component sourcing solutions</h1>
-                    <p class="mb-0">When you purchase a product or service from us, you’re not making a one-time transaction. Our industry experts are available if you have questions or need support.</p>
+    <!-- Service Start -->
+    
+    <div class="container-fluid contact py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
+                <h4 class="mb-1 text-primary">Our Solutions</h4>
+                <h1 class="display-5 mb-4">Here's an overview of our electronic component sourcing solutions</h1>
+                <p class="mb-0">When you purchase a product or service from us, you’re not making a one-time
+                    transaction. Our industry experts are available if you have questions or need support.</p>
+            </div>
+            <div class="row g-4 justify-content-center px-3">
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item text-center rounded p-4">
+                        <div class="service-icon d-inline-block bg-light rounded p-4 mb-4">
+                            <i class="fas fa-plug fa-5x text-secondary"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="mb-4">Electronics Sourcing</h4>
+                            <p class="mb-4">We understand the challenges of finding the right electronic components,
+                                materials for your projects. With our extensive network of trusted suppliers and
+                                manufacturers, we can source high-quality, cost-effective components tailored to your
+                                specifications.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item text-center rounded p-4">
-                            <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i
-                                    class="fas fa-plug fa-5x text-secondary"></i></div>
-                            <div class="service-content">
-                                <h4 class="mb-4">Electronics Sourcing</h4>
-                                <p class="mb-4">We understand the challenges of finding the right electronic components, materials for your projects. With our extensive network of trusted suppliers and manufacturers, we can source high-quality, cost-effective components tailored to your specifications.
-                                </p>
-                                <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
-                            </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item text-center rounded p-4">
+                        <div class="service-icon d-inline-block bg-light rounded p-4 mb-4">
+                            <i class="fas fa-tasks fa-5x text-secondary"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="mb-4">Design Solutions</h4>
+                            <p class="mb-4">Our eco system experience in electronics design to supply chain field, will
+                                assist you turning your ideas into reality. We can assist to select you the latest
+                                technologies and industry’s latest cost-effective components to design product that
+                                gives optimum solution to enhance your bottom line.
+                            </p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item text-center rounded p-4">
-                            <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i
-                                    class="fa-solid fa-pencil fa-5x text-secondary"></i></div>
-                            <div class="service-content">
-                                <h4 class="mb-4">Design Solutions</h4>
-                                <p class="mb-4">Our eco system experience in electronics design to supply chain field, will assist you turning your ideas into reality. We can assist to select you the latest technologies and industry’s latest cost-effective components to design product that gives optimum solution to enhance your bottom line.
-                                </p>
-                                <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
-                            </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item text-center rounded p-4">
+                        <div class="service-icon d-inline-block bg-light rounded p-4 mb-4">
+                            <i class="fa fa-bullhorn fa-5x text-secondary"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="mb-4">Value Engineering</h4>
+                            <p class="mb-4">We believe in optimizing product performance and cost-effectiveness without
+                                compromising quality. Our value engineering services focus on identifying opportunities
+                                for design improvement, component consolidation, right fit parts. By collaborating with
+                                us, you can enhance your product's competitiveness, reduce overall costs, and accelerate
+                                time-to-market.
+                            </p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item text-center rounded p-4">
-                            <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i
-                                    class="fa fa-bullhorn fa-5x text-secondary"></i></div>
-                            <div class="service-content">
-                                <h4 class="mb-4">Value Engineering</h4>
-                                <p class="mb-4">We believe in optimizing product performance and cost-effectiveness without compromising quality. Our value engineering services focus on identifying opportunities for design improvement, component consolidation, right fit parts. By collaborating with us, you can enhance your product's competitiveness, reduce overall costs, and accelerate time-to-market.
-                                </p>
-                                <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
-                            </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item text-center rounded p-4">
+                        <div class="service-icon d-inline-block bg-light rounded p-4 mb-4">
+                            <i class="fas fa-truck fa-5x text-secondary"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="mb-4">Supply Chain Management</h4>
+                            <p class="mb-4">Efficient supply chain management has become most important part of any
+                                electronics project now. We can help you streamline your supply chain, minimize risks
+                                and improve overall operational efficiency. We offer comprehensive supply chain
+                                solutions, including demand planning, inventory management, vendor management. By
+                                partnering with us, you can ensure a reliable supply of components and optimize your
+                                resources.
+                            </p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="service-item text-center rounded p-4">
-                            <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i
-                                    class="fas fa-truck fa-5x text-secondary"></i></div>
-                            <div class="service-content">
-                                <h4 class="mb-4">Supply Chain Management</h4>
-                                <p class="mb-4">Efficient supply chain management has become most important part of any electronics project now. We can help you streamline your supply chain, minimize risks and improve overall operational efficiency. We offer comprehensive supply chain solutions, including demand planning, inventory management, vendor management. By partnering with us, you can ensure a reliable supply of components and optimize your resources.
-                                </p>
-                                <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item text-center rounded p-4">
-                            <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i
-                                    class="fas fa-mail-bulk fa-5x text-secondary"></i></div>
-                            <div class="service-content">
-                                <h4 class="mb-4">Email Newsletters</h4>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur
-                                    adipisicing elit
-                                </p>
-                                <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item text-center rounded p-4">
-                            <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i
-                                    class="fas fa-thumbs-up fa-5x text-secondary"></i></div>
-                            <div class="service-content">
-                                <h4 class="mb-4">Acquistion Emails </h4>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur
-                                    adipisicing elit
-                                </p>
-                                <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item text-center rounded p-4">
-                            <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i
-                                    class="fa fa-subway fa-5x text-secondary"></i></div>
-                            <div class="service-content">
-                                <h4 class="mb-4">Retention Emails</h4>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur
-                                    adipisicing elit
-                                </p>
-                                <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="service-item text-center rounded p-4">
-                            <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i
-                                    class="fas fa-sitemap fa-5x text-secondary"></i></div>
-                            <div class="service-content">
-                                <h4 class="mb-4">Promotional Emails</h4>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur
-                                    adipisicing elit
-                                </p>
-                                <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
+            <!-- <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item text-center rounded p-4">
+                        <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i
+                                class="fas fa-plug fa-5x text-secondary"></i></div>
+                        <div class="service-content">
+                            <h4 class="mb-4">Electronics Sourcing</h4>
+                            <p class="mb-4">We understand the challenges of finding the right electronic components,
+                                materials for your projects. With our extensive network of trusted suppliers and
+                                manufacturers, we can source high-quality, cost-effective components tailored to your
+                                specifications.
+                            </p>
+                            <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item text-center rounded p-4">
+                        <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i
+                                class="fas fa-tasks fa-5x text-secondary"></i></div>
+                        <div class="service-content">
+                            <h4 class="mb-4">Design Solutions</h4>
+                            <p class="mb-4">Our eco system experience in electronics design to supply chain field, will
+                                assist you turning your ideas into reality. We can assist to select you the latest
+                                technologies and industry’s latest cost-effective components to design product that
+                                gives optimum solution to enhance your bottom line.
+                            </p>
+                            <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item text-center rounded p-4">
+                        <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i
+                                class="fa fa-bullhorn fa-5x text-secondary"></i></div>
+                        <div class="service-content">
+                            <h4 class="mb-4">Value Engineering</h4>
+                            <p class="mb-4">We believe in optimizing product performance and cost-effectiveness without
+                                compromising quality. Our value engineering services focus on identifying opportunities
+                                for design improvement, component consolidation, right fit parts. By collaborating with
+                                us, you can enhance your product's competitiveness, reduce overall costs, and accelerate
+                                time-to-market.
+                            </p>
+                            <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item text-center rounded p-4">
+                        <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i
+                                class="fas fa-truck fa-5x text-secondary"></i></div>
+                        <div class="service-content">
+                            <h4 class="mb-4">Supply Chain Management</h4>
+                            <p class="mb-4">Efficient supply chain management has become most important part of any
+                                electronics project now. We can help you streamline your supply chain, minimize risks
+                                and improve overall operational efficiency. We offer comprehensive supply chain
+                                solutions, including demand planning, inventory management, vendor management. By
+                                partnering with us, you can ensure a reliable supply of components and optimize your
+                                resources.
+                            </p>
+                            <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
         </div>
-        <!-- Service End -->
+    </div> 
+    <!-- Service End -->
 
-        <!-- <div class="container-fluid FAQ bg-light overflow-hidden py-5">
+    <!-- <div class="container-fluid FAQ bg-light overflow-hidden py-5">
             <div class="container py-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
@@ -288,10 +340,10 @@
                 </div>
             </div>
         </div> -->
-        
 
-        <!-- FAQ Start -->
-        <!-- <div class="container-fluid FAQ bg-light overflow-hidden py-5">
+
+    <!-- FAQ Start -->
+    <!-- <div class="container-fluid FAQ bg-light overflow-hidden py-5">
             <div class="container py-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
@@ -429,44 +481,126 @@
                 </div>
             </div>
         </div> -->
-        <!-- FAQ End -->
+    <!-- FAQ End -->
 
 
-        <!-- Pricing Start -->
-        <!-- <div class="container-fluid price py-5">
+    <!-- ES Start -->
+    <div class="container-fluid price">
             <div class="container py-5">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
-                    <h4 class="text-primary">Pricing Plan</h4>
-                    <h1 class="display-5 mb-4">Not Sure Which Plan Is For You?</h1>
+                    <h4 class="text-primary">Authorized Product Lines</h4>
+                    <!-- <h1 class="display-5 mb-4">Not Sure Which Plan Is For You?</h1>
                     <p class="mb-0">Dolor sit amet consectetur, adipisicing elit. Ipsam, beatae maxime. Vel animi eveniet doloremque reiciendis soluta iste provident non rerum illum perferendis earum est architecto dolores vitae quia vero quod incidunt culpa corporis, porro doloribus. Voluptates nemo doloremque cum.
-                    </p>
+                    </p> -->
                 </div>
                 <div class="row g-5 justify-content-center">
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="price-item bg-light rounded text-center">
                             <div class="text-center text-dark border-bottom d-flex flex-column justify-content-center p-4" style="width: 100%; height: 160px;">
-                                <p class="fs-2 fw-bold text-uppercase mb-0">BASIC</p>
-                                <div class="d-flex justify-content-center">
-                                    <strong class="align-self-start">$</strong>
-                                    <p class="mb-0"><span class="display-5">00</span>/mo</p>
+                                <div class="d-flex justify-content-center"> <a href="https://www.oasistek.com/" target="_blank" class="text-decoration-none">
+                                    <img class="es-logo" src="https://www.oasistek.com/images/logo.png" alt="oasistek"></a>
                                 </div>                        
                             </div>
                             <div class="text-start p-5">
-                                <p><i class="fas fa-check text-success me-1"></i> Limited Acess Library</p>
-                                <p><i class="fas fa-check text-success me-1"></i> Customer Support</p>
-                                <p><i class="fas fa-check text-success me-1"></i> Pre-built Email Templates</p>
-                                <p><i class="fas fa-check text-success me-1"></i> Reporting & Analytics</p>
-                                <p><i class="fas fa-check text-success me-1"></i> Forms & Landing Pages</p>
-                                <p><i class="fas fa-check text-success me-1"></i> A/B Testing</p>
-                                <p><i class="fas fa-check text-success me-1"></i> Email Scheduling</p>
-                                <p><i class="fas fa-check text-success me-1"></i> Automated Customer Journeys</p>
-                                <p><i class="fas fa-times text-danger me-1"></i> Creative Assistant</p>
-                                <p class="mb-4"><i class="fas fa-times text-danger me-1"></i> Role-based Access</p>
-                                <button class="btn btn-light rounded-pill py-2 px-5" type="button">Get Started</button>
+                                <p><i class="fas fa-check text-success me-1"></i> Rectifiers</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Diodes</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Transistors</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Power Transistors</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Metal Can</p>
+                                <p><i class="fas fa-check text-success me-1"></i> TRIACS and SCRS</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Voltage Regulators</p>
+                                <p><i class="fas fa-check text-success me-1"></i> TVS</p>
+                                <p><i class="fas fa-check text-success me-1"></i> ICs</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Mosfets</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="price-item bg-light rounded text-center">
+                            <div class="text-center text-dark border-bottom d-flex flex-column justify-content-center p-4" style="width: 100%; height: 160px;">
+                                <div class="d-flex justify-content-center"> <a href="https://www.alphion.com/" target="_blank" class="text-decoration-none">
+                                    <img class="es-logo" src="https://www.alphion.com/img/logo.png" alt="alphion"></a>
+                                </div>                        
+                            </div>
+                            <div class="text-start p-5">
+                                <p><i class="fas fa-check text-success me-1"></i> Carbon and Metal film Resistor</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Wire Wound Resistor</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Fusable Wirewound</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Metal Oxide Resistor</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Chip Resistor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="price-item bg-light rounded text-center">
+                            <div class="text-center text-dark border-bottom d-flex flex-column justify-content-center p-4" style="width: 100%; height: 160px;">
+                                <div class="d-flex justify-content-center"> <a href="https://www.noritake-itron.net/" target="_blank" class="text-decoration-none">
+                                    <img class="es-logo" src="https://www.noritake-itron.net/assets/img/common/logo_ph001.png" alt="noritake-itron"></a>
+                                </div>                          
+                            </div>
+                            <div class="text-start p-5">
+                                <p><i class="fas fa-check text-success me-1"></i> Aluminium Electrolytic capacitor</p>
+                                <p><i class="fas fa-check text-success me-1"></i> General Purpose 105°C (2k hrs)</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Transistors</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Long Life 105 degree (5k hrs)</p>
+                                <p><i class="fas fa-check text-success me-1"></i> LED Applications (2k, 3k hrs)</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Long Life LED Applications (5k, 8k hrs)</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Extended long life LED Applications (12k hrs)</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Snap in 85/105 degree</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="price-item bg-light rounded text-center">
+                            <div class="text-center text-dark border-bottom d-flex flex-column justify-content-center p-4" style="width: 100%; height: 160px;">
+                                <div class="d-flex justify-content-center"> <a href="https://www.panjit.com.tw/en" target="_blank" class="text-decoration-none">
+                                    <img style="width: 50%;" src="https://www.panjit.com.tw/upload/2019_11_181/201911181606248skcw5dM83.png" alt="panjit"></a>
+                                </div>                        
+                            </div>
+                            <div class="text-start p-5">
+                                <p><i class="fas fa-check text-success me-1"></i> Standard Linear Voltage Regulator</p>
+                                <p><i class="fas fa-check text-success me-1"></i> LDO/VLDO Voltage Regulator</p>
+                                <p><i class="fas fa-check text-success me-1"></i> CMOS ULDO Voltage Regulator</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Step-Up and Step-Down Switching Regulator</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Convertor and Controllers</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Logic ICs</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Amplifiers and Comparators</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="price-item bg-light rounded text-center">
+                            <div class="text-center text-dark border-bottom d-flex flex-column justify-content-center p-4" style="width: 100%; height: 160px;">
+                                <div class="d-flex justify-content-center"> <a href="https://www.calramic.com/" target="_blank" class="text-decoration-none">
+                                    <img class="es-logo" src="https://static.wixstatic.com/media/5d5c75_4db3d0a9712e483c9e7feec940d7fa36~mv2.png/v1/fill/w_411,h_108,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/CalRamic-NewModified-Logo-2022.png" alt="calramic"></a>
+                                </div>                        
+                            </div>
+                            <div class="text-start p-5">
+                                <p><i class="fas fa-check text-success me-1"></i> Thick Film Chip Resistors</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Metal Oxide Resistors</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Carbon and Metal Film Resistors</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Fusible Wirewound Resistor</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Wirewound Resistors</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Jumper Wire</p>
+                                <p><i class="fas fa-check text-success me-1"></i> NonFlame Fusible Metal Film Resistors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="price-item bg-light rounded text-center">
+                            <div class="text-center text-dark border-bottom d-flex flex-column justify-content-center p-4" style="width: 100%; height: 160px;">
+                                <div class="d-flex justify-content-center"> <a href="https://voltagemultipliers.com/" target="_blank" class="text-decoration-none">
+                                    <img class="es-logo" src="https://voltagemultipliers.com/wp-content/uploads/2018/05/voltage-multipliers-logo.png" alt="voltagemultipliers"></a>
+                                </div>                        
+                            </div>
+                            <div class="text-start p-5">
+                                <p><i class="fas fa-check text-success me-1"></i> Aluminium Electrolytic Capacitor</p>
+                                <p><i class="fas fa-check text-success me-1"></i> SHX Series (125 degree) 10k hrs</p>
+                                <p><i class="fas fa-check text-success me-1"></i> SHG Series (105 degree) 10k hrs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="price-item bg-light rounded text-center">
                             <div class="pice-item-offer">Popular</div>
                             <div class="text-center text-primary border-bottom d-flex flex-column justify-content-center p-4" style="width: 100%; height: 160px;">
@@ -514,47 +648,103 @@
                                 <button class="btn btn-light rounded-pill py-2 px-5" type="button">Get Started</button>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
-        </div> -->
-        <!-- Pricing End -->
+        </div>
+    <!-- ES End -->
 
+    <!--Start Stockies for -->
+    <div class="container-fluid price">
+        <div class="container py-5">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
+                <h4 class="text-primary">Stockies For</h4>
+            </div>
+            <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
 
-      <!-- Footer Start -->
-      <div id="footer-placeholder"></div>
-      <!-- Footer End -->
-
-
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
-
-             <!-- JavaScript to Load Navbar -->
-             <script>
-                document.addEventListener("DOMContentLoaded", function () {
-                    // Load the navbar dynamically
-                    fetch("navbar.html")
-                        .then(response => response.text())
-                        .then(data => {
-                            document.getElementById("navbar-placeholder").innerHTML = data;
+            <div class="container py-5">
+              <div class="row g-4 justify-content-center">
+                <!-- Row 1 -->
+                <div class="col-2 d-flex justify-content-center">
+                  <img src="/img/channel-partner/samsung.png" style="height: 50%;" class="img-fluid" alt="Samsung">
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                  <img src="//www.ti.com/etc/designs/ti/images/ui/ic-logo.svg" class="img-fluid" alt="Texas Instruments">
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                  <img src="/img/channel-partner/st-life-augmented.jpeg" class="img-fluid" alt="ST">
+                </div>
             
-                            // Highlight the active link
-                            const currentPage = window.location.pathname.split("/").pop() || "index.html"; // Get the current file name
-                            const navLinks = document.querySelectorAll(".nav-item.nav-link");
+                <!-- Row 2 -->
+                <div class="col-2 d-flex justify-content-center">
+                  <img src="https://www.infineon.com/frontend/release_2025-03-1/dist/resources/img/logo-desktop-en.png" class="img-fluid" alt="Infineon">
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                  <img src="https://www.vishay.com/images/header/vishay-logo.png" class="img-fluid" alt="Vishay">
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                    <img src="/img/channel-partner/nxp-semiconductors-semiconductor-industry-nasdaq-nxpi-integrated-circuits-chips-diagnostics-22fa06648d04985efcd7fb0f306c6de0.png" class="img-fluid" alt="NXP">
+                </div>
             
-                            navLinks.forEach(link => {
-                                if (link.getAttribute("href") === currentPage) {
-                                    link.classList.add("active");
-                                } else {
-                                    link.classList.remove("active");
-                                }
-                            });
-                        })
-                        .catch(error => console.error("Error loading navbar:", error));
-                });
-            </script>
-                 <!-- JavaScript to Load Footer -->
-     <script>
+                <!-- Row 3 -->
+                <div class="col-2 d-flex justify-content-center">
+                  <img src="https://www.yageo.com/templates/default/images/yageo_logo.png" class="img-fluid" alt="Yageo">
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                  <img src="https://en.everlight.com/wp-content/uploads/2020/12/everlight_logo.svg" class="img-fluid" alt="Everlight">
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                  <img src="./img//channel-partner/Microchip_Technology-Logo.wine (1).png" class="img-fluid" alt="Microchip">
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                    <img src="https://www.kyocera-avx.com/images/kavx-header-logo-2022.png" class="img-fluid" alt="kyocera-avx">
+                  </div>
+                  <div class="col-2 d-flex justify-content-center">
+                    <img src="	https://www.kemet.com/content/dam/kemet/lightning/images/logos/YAGEO_KEMET_website_logo_white.png" class="img-fluid" alt="yageo-kemet">
+                  </div>
+                  <div class="col-2 d-flex justify-content-center">
+                    <img src="https://www.toshiba.com/tai/img/logo_l.gif" class="img-fluid" alt="toshiba">
+                  </div>
+              </div>
+            </div>
+            
+        </div>
+    </div>
+<!-- End Stockies for -->
+    <!-- Footer Start -->
+    <div id="footer-placeholder"></div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+    <!-- JavaScript to Load Navbar -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Load the navbar dynamically
+            fetch("navbar.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("navbar-placeholder").innerHTML = data;
+
+                    // Highlight the active link
+                    const currentPage = window.location.pathname.split("/").pop() || "index.html"; // Get the current file name
+                    const navLinks = document.querySelectorAll(".nav-item.nav-link");
+
+                    navLinks.forEach(link => {
+                        if (link.getAttribute("href") === currentPage) {
+                            link.classList.add("active");
+                        } else {
+                            link.classList.remove("active");
+                        }
+                    });
+                })
+                .catch(error => console.error("Error loading navbar:", error));
+        });
+    </script>
+    <!-- JavaScript to Load Footer -->
+    <script>
         document.addEventListener("DOMContentLoaded", function () {
             // Load the footer dynamically
             fetch("footer.html")
@@ -575,7 +765,7 @@
                 collapseThree: document.getElementById('faqImage3'),
                 collapseFour: document.getElementById('faqImage4'),
             };
-    
+
             Object.keys(images).forEach(collapseId => {
                 const collapseElement = document.getElementById(collapseId);
                 collapseElement.addEventListener('show.bs.collapse', function () {
@@ -583,7 +773,7 @@
                     Object.values(images).forEach(img => img.style.display = 'none');
                     images[collapseId].style.display = 'block';
                 });
-    
+
                 collapseElement.addEventListener('hide.bs.collapse', function () {
                     if (!Object.values(images).some(img => img.style.display === 'block')) {
                         defaultImage.style.display = 'block';
@@ -600,10 +790,10 @@
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
-    
+
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    </body>
+</body>
 
 </html>
