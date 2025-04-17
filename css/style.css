@@ -981,6 +981,7 @@
     display: inline-block;
     font-size: 4rem;
     animation: wave 2s ease-in-out infinite;
+    margin-right: 0.1rem;
 }
 
 .wave-text span:nth-child(1) {
@@ -1077,4 +1078,29 @@
 }
 .es-logo{
     width: 100%;
+}
+
+.blog-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ensures all cards are the same height */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.blog-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.blog-content {
+    flex-grow: 1; /* Ensures content stretches to fill available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
 }
